@@ -57,6 +57,10 @@ hr {
     letter-spacing: 3px;
 }
 
+.navbar-nav.a {
+    font-size: 12px;
+}
+
 .img-full {
     min-width: 100%;
 }
@@ -171,7 +175,7 @@ footer p {
     }
 
     .nav>li>a {
-        padding: 35px;
+        padding: 20px;
     }
 
     .navbar-nav>li>a {
@@ -183,7 +187,7 @@ footer p {
         float: none;
         margin: 0 auto;
         table-layout: fixed;
-        font-size: 1.25em;
+        font-size: 15px;
     }
 }
 
