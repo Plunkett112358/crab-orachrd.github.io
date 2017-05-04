@@ -128,16 +128,9 @@
     </div>      
     <!-- /.container -->
 
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <p class="text-small">Comments: Jon Tribble, Managing Editor, Site Design by Mark Brewin, Copyright © 2009, Board of Trustees, Southern Illinois University 
-                        Privacy Policy | EOE Link | Last Updated Thursday, September 1, 2016</p>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <div id="includedContent"></div>
+
+ 
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
@@ -155,6 +148,10 @@
        <script> 
         $(function(){
             $("#includedContent").load("nav.html"); 
+         });
+
+         $(function(){
+            $("#includedContent").load("footer.html"); 
          });
         </script>
 
